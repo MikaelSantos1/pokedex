@@ -7,7 +7,7 @@
 
 <div align="center"><a href="#top">
  
-<img src="https://uploaddeimagens.com.br/imagens/hCRZNyw" alt="pokedex">
+<img src="/pokedex.png" alt="pokedex">
 <img src="https://uploaddeimagens.com.br/imagens/hd3nH40">
  <img src="https://uploaddeimagens.com.br/imagens/1D4bZE8" alt="modal">                                                   
 

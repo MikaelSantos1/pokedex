@@ -7,9 +7,9 @@
 
 <div align="center"><a href="#top">
  
-<img src="/pokedex.png" alt="pokedex">
-<img src="https://uploaddeimagens.com.br/imagens/hd3nH40">
- <img src="https://uploaddeimagens.com.br/imagens/1D4bZE8" alt="modal">                                                   
+<img src="./public/pokedex.png" alt="pokedex">
+<img src="./public/modal.png" >
+ <img src="./public/pesquisa.png" alt="search">                                                   
 
 >Esse projeto e uma pokedex desenvolvida com ReactJS, a api consumida foi a PokeAPI.
 </a></div>

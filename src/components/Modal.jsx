@@ -22,7 +22,7 @@ const Modal = ({ showModal, setShowModal, name, image, stats, type ,background2}
                         <StatsContainer >
                             {stats.map((stat, i) => {
                                 return (
-                                    <h4 key={i}>{stat.stat.name} :{stat.base_stat} <LinearProgress variant='determinate' value={stat.base_stat} /></h4>
+                                    <h3 key={i}> {stat.stat.name} :{stat.base_stat} <LinearProgress variant='determinate' value={stat.base_stat} /></h3>
                                 )
 
 

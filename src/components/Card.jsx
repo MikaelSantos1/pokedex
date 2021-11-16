@@ -27,7 +27,7 @@ const Card = (props) => {
         if (types[0] === 'poison') return '#4B0082'
         if (types[0] === 'bug') return 'rgba(85, 107, 47,0.8)'
         if (types[0] === 'ground') return '#755640'
-        if (types[0] === 'normal') return '#F5F5DC'
+        if (types[0] === 'normal') return '#cfcfa8'
         if (types[0] === 'electric') return '#ffd96fe2'
         if (types[0] === 'ice') return '#83c8e0'
         if (types[0] === 'rock') return '#ccc'
@@ -50,7 +50,6 @@ const Card = (props) => {
                     {types.map
                         ((type, i) =>
                             <span key={i} >
-
                                 <h4>{type}</h4>
                             </span>)}
                 </Description>
@@ -80,10 +79,10 @@ const Card = (props) => {
 const CardContainer = styled.div`
 
     width:100%;
-    height:150px;
-   
+    height:100%;
+    min-height:150px;
     display:flex;
-    
+    text-transform: capitalize;
     justify-content:center;
     align-items:center;
     color:#fff;
@@ -92,6 +91,13 @@ const CardContainer = styled.div`
     border-radius:25px;
     position: relative;
     cursor:pointer;
+
+    &:hover{
+        transform:scale(1.05);
+       
+        transition: all 250ms ease-in-out(0.25,0.46,0.45,0.94) 0s;
+        border-color: rgba(249,249,249,0.8);
+    }
     
 `
 const Background = styled.div`
@@ -99,10 +105,10 @@ const Background = styled.div`
     img{
         width:100%;
         height:100%;
-        object-fit:cover;
+        
     }
     span {
-     position: absolute;
+    position: absolute;
     top: 0px;
     right: 20px;
     font-size: 2.5rem;

@@ -14,11 +14,11 @@
 >Esse projeto e uma pokedex desenvolvida com ReactJS, a api consumida foi a PokeAPI.
 </a></div>
 
-<a href="demo.png" target="_blank">
-    <img width ="150px" height="150px"alt="Demo on Netlify"  src="https://uploaddeimagens.com.br/imagens/kM4RmyM">
+<a href="https://pokedex-react-mikael.netlify.app target="_blank">
+    <img width ="150px" height="150px"alt="Demo on Netlify"  src="demo.png"">
   </a>
 
-<p align="left">(<a href="https://disneyplus-clone-3eeed.web.app target="_blank">Clique aqui para abrir um demontraçâo</a>)</p>
+<p align="left">(<a href="https://pokedex-react-mikael.netlify.app" target="_blank">Clique aqui para abrir um demontraçâo</a>)</p>
 
 
 

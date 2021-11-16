@@ -30,7 +30,7 @@ const Pokedex = () => {
 
     }, [])
 
-    console.log(pokemon)
+ 
 
     return (
         <>
@@ -47,7 +47,7 @@ const Pokedex = () => {
 
                     pokemon.map((pokemons, i) => {
                         
-                       if (pokemons.name.includes(input)) {
+                       if (pokemons.name.includes(input.toLowerCase())) {
                             return (
                                 <Card
                                     key={i}

@@ -81,6 +81,7 @@ const PokemonContainer = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    margin-top:20px;
     span{
     border-radius: 100rem;
    

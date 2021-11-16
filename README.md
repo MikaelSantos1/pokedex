@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Sobre o projeto
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div align="center"><a href="#top">
+ 
+<img src="https://uploaddeimagens.com.br/imagens/hCRZNyw alt="pokedex">
+<img src="https://uploaddeimagens.com.br/imagens/hd3nH40">
+ <img src="https://uploaddeimagens.com.br/imagens/1D4bZE8" alt="modal">                                                   
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+>Esse projeto e uma pokedex desenvolvida com ReactJS, a api consumida foi a PokeAPI.
+</a></div>
 
-### `yarn test`
+<a href="https://pokedex-react-mikael.netlify.app" target="_blank">
+    <img width ="150px" height="150px"alt="Demo on Netlify"  src="https://uploaddeimagens.com.br/imagens/kM4RmyM">
+  </a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="left">(<a href="https://disneyplus-clone-3eeed.web.app target="_blank">Clique aqui para abrir um demontraçâo</a>)</p>
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##🚀 Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* ReactJs
+* Hooks
+* Styled-Components
+* React hooks                                                                                        
+* Axios
+* Material UI
+  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Como usar
 
-### Analyzing the Bundle Size
+2. Clone o repositorio
+   ```sh
+   git clone https://github.com/MikaelSantos1/pokedex.git
+   ```
+3. Instale as  depencias
+   ```sh
+  npm install
+   ```
+4. Inicie o projeto
+   ```js
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>

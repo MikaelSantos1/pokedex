@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import CatchingPokemonIcon from '@mui/icons-material/CatchingPokemon';
 const Header = () => {
     return (
         <Container>
-            <h1>POKEDEX</h1>
+           <CatchingPokemonIcon fontSize="large"/>
         </Container>
     )
 }
@@ -16,5 +16,7 @@ const Container= styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
+    color:#fff;
 `
+
 export default Header

@@ -18,24 +18,24 @@ const Card = (props) => {
 
     function getColor() {
       
-       for (let i in types){
-        if (types[i] === 'water') return '#609fb5'
-        if (types[i] === 'fire') return 'rgba(255, 99, 71,0.7)'
-        if (types[i] === 'fighting') return '#f1d7b4'
-        if (types[i] === 'psychic') return '#D8BFD8'
-        if (types[i] === 'grass') return '#46f3b1'
-        if (types[i] === 'poison') return '#4B0082'
-        if (types[i] === 'bug') return 'rgba(85, 107, 47,0.8)'
-        if (types[i] === 'ground') return '#755640'
-        if (types[i] === 'normal') return '#F5F5DC'
-        if (types[i] === 'electric') return '#ffd96fe2'
-        if (types[i] === 'ice') return '#83c8e0'
-        if (types[i] === 'rock') return '#ccc'
-        if (types[i] === 'fairy') return '#FF69B4'
-        if (types[i] === 'dragon') return '#FFA500'
-        if (types[i] === 'ghost') return '#9370DB'
+    
+        if (types[0] === 'water') return '#609fb5'
+        if (types[0] === 'fire') return 'rgba(255, 99, 71,0.7)'
+        if (types[0] === 'fighting') return '#f1d7b4'
+        if (types[0] === 'psychic') return '#D8BFD8'
+        if (types[0] === 'grass') return '#46f3b1'
+        if (types[0] === 'poison') return '#4B0082'
+        if (types[0] === 'bug') return 'rgba(85, 107, 47,0.8)'
+        if (types[0] === 'ground') return '#755640'
+        if (types[0] === 'normal') return '#F5F5DC'
+        if (types[0] === 'electric') return '#ffd96fe2'
+        if (types[0] === 'ice') return '#83c8e0'
+        if (types[0] === 'rock') return '#ccc'
+        if (types[0] === 'fairy') return '#FF69B4'
+        if (types[0] === 'dragon') return '#FFA500'
+        if (types[0] === 'ghost') return '#9370DB'
         return ""
-       }
+       
     }
     const openModal = () => {
         setShowModal(!showModal)
@@ -69,6 +69,7 @@ const Card = (props) => {
                 stats={props.stats}
                 type={types}
                 getColor={getColor}
+                background2={props.background2}
             />
         </>
     )
@@ -79,7 +80,7 @@ const Card = (props) => {
 const CardContainer = styled.div`
 
     width:100%;
-    height:100%;
+    height:150px;
    
     display:flex;
     
@@ -90,6 +91,7 @@ const CardContainer = styled.div`
     padding:15px;
     border-radius:25px;
     position: relative;
+    cursor:pointer;
     
 `
 const Background = styled.div`
@@ -99,13 +101,16 @@ const Background = styled.div`
         height:100%;
         object-fit:cover;
     }
-    span{
+    span {
      position: absolute;
     top: 0px;
     right: 20px;
     font-size: 2.5rem;
     color: rgba( 255,255,255,.7 );
     z-index:1;
+    }
+    h3{
+        font-size: 2.5rem;
     }
 `
 const Description = styled.div`

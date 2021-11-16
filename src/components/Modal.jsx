@@ -1,33 +1,36 @@
 import React from 'react'
 import styled from 'styled-components'
 import LinearProgress from '@material-ui/core/LinearProgress'
+import CloseIcon from '@mui/icons-material/Close';
 
 
-const Modal = ({ showModal, setShowModal, name, image, stats, type, getColor }) => {
-   
-    type.join(" ")
+const Modal = ({ showModal, setShowModal, name, image, stats, type ,background2}) => {
+
+
 
     return (
         <>
             {showModal ?
                 <ModalWrap>
                     <ModalContent >
-                        <PokemonContainer color={getColor}  > 
+                        <PokemonContainer  >
+
                             <span ><h2>{name}</h2></span>
-                           
-                            <img src={image} alt="" />
+
+                            <img src={background2} alt="" />
                         </PokemonContainer>
                         <StatsContainer >
                             {stats.map((stat, i) => {
                                 return (
-                                    <h1 key={i}>{stat.stat.name} :{stat.base_stat} <LinearProgress variant='determinate' value={stat.base_stat} /></h1>
+                                    <h4 key={i}>{stat.stat.name} :{stat.base_stat} <LinearProgress variant='determinate' value={stat.base_stat} /></h4>
                                 )
-                                console.log(stat.base_stat)
-                                console.log(stat.stat.name)
+
 
                             })}
                         </StatsContainer>
-                        <Button onClick={() => setShowModal(!showModal)} />
+                        <Button onClick={() => setShowModal(!showModal)} >
+                            <CloseIcon></CloseIcon>
+                        </Button>
                     </ModalContent>
                 </ModalWrap> : null}
         </>
@@ -42,7 +45,7 @@ const ModalWrap = styled.div`
     left:0;
     bottom:0;
     right:0;
-    background-color:#0000004b;
+    background-color:#000000cc;
      display:flex;
      justify-content:center;
      align-items:center;
@@ -50,36 +53,46 @@ const ModalWrap = styled.div`
 `
 const ModalContent = styled.div`
     width:800px;
-    height:500px;
+    height:400px;
     background-color:#fff;
     color:#000;
     display:flex;
     
+    background-color:#cccccc;
+    @media(max-width: 520px) {
+    
+    flex-direction:column;
+  }
      
 
 `
 const Button = styled.button`
     width:50px;
     height:50px;
-    background-color:red;
-  
+    cursor: pointer;
+    border:none;
+    background-color:#cccccc;
    
 `
 const PokemonContainer = styled.div`
-     width:100%;
+    width:100%;
     height:100%;
-    
     display:flex;
     flex-direction:column;
+    justify-content:center;
+    align-items:center;
     span{
     border-radius: 100rem;
-    background:${(props) => props.color};
+   
     padding: .3rem .7rem;
     text-align: center;
     margin-bottom: .5rem;
     text-transform: capitalize;
-    width:100%;
 
+     }
+     img{
+         width:100%;
+        
      }
   
 `

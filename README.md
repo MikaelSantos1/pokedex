@@ -14,7 +14,7 @@
 >Esse projeto e uma pokedex desenvolvida com ReactJS, a api consumida foi a PokeAPI.
 </a></div>
 
-<a href="https://pokedex-react-mikael.netlify.app target="_blank">
+<a href="https://pokedex-react-mikael.netlify.app"target="_blank">
     <img width ="150px" height="150px"alt="Demo on Netlify"  src="demo.png"">
   </a>
 

@@ -7,7 +7,7 @@
 
 <div align="center"><a href="#top">
  
-<img src="./public/pokedex.png" alt="pokedex">
+<img src="./public/pokedex.PNG" alt="pokedex">
 <img src="./public/modal.png" >
  <img src="./public/pesquisa.png" alt="search">                                                   
 

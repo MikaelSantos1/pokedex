@@ -15,7 +15,7 @@
 </a></div>
 
 <a href="https://pokedex-react-mikael.netlify.app" target="_blank">
-    <img width ="150px" height="150px"alt="Demo on Netlify"  src="./public/demo.png"">
+    <img alt="Demo on Netlify"  src="./public/demo.png"">
   </a>
 
 <p align="left">(<a href="https://pokedex-react-mikael.netlify.app" target="_blank">Clique aqui para abrir um demontraçâo</a>)</p>
